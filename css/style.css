@@ -338,7 +338,8 @@ body {
     background-color: #fce38a;
 }
 
-.card-content>.wrapper .list-item:hover {
+.card-content>.wrapper .list-item:hover,
+ :focus {
     background-color: #95e1d3;
 }
 
@@ -438,5 +439,8 @@ body {
     }
     .sub {
         width: 100%;
+    }
+    .card-content>.wrapper .list-item:focus {
+        background-color: #95e1d3;
     }
 }
