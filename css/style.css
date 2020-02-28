@@ -433,4 +433,10 @@ body {
     .about-card {
         margin-top: 10px;
     }
+    .input-sub {
+        flex-direction: column;
+    }
+    .sub {
+        width: 100%;
+    }
 }
