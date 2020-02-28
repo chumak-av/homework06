@@ -158,9 +158,8 @@ body {
 .input {
     font-size: 14px;
     border: 0px solid #ccc;
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 4px;
     width: 65%;
-    display: inline-block;
     height: 34px
 }
 
@@ -169,7 +168,6 @@ body {
     border: 0px solid #95e1d3;
     color: #fff;
     padding: 5px 10px;
-    margin-left: -4px;
     border-radius: 4px;
     height: 34px;
     outline: none;
@@ -179,14 +177,8 @@ body {
 }
 
 .input-sub {
-    height: 47px;
     display: flex;
     justify-content: flex-end;
-    width: 48%;
-}
-
-.input {
-    width: 70%;
 }
 
 .footer-container {
@@ -436,11 +428,30 @@ body {
     }
     .input-sub {
         flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
     }
     .sub {
         width: 100%;
     }
     .card-content>.wrapper .list-item:focus {
         background-color: #95e1d3;
+    }
+    .nav-list {
+        align-items: center;
+    }
+    .footer-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-info {
+        margin-top: 10px;
+    }
+    .input {
+        width: 100%;
+    }
+    .input-sub {
+        width: 70%;
     }
 }
